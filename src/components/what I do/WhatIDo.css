@@ -32,3 +32,9 @@
 .tech-stack ul li:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 717px) {
+    .what-i-do {
+        flex-wrap: wrap;
+    }
+}

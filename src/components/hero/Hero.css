@@ -73,3 +73,25 @@
 .desc p {
     font-size: 22px;
 }
+
+@media (max-width: 717px) {
+    hr {
+        display: none;
+    }
+
+    .desc p {
+        font-size: 19px;
+    }
+
+    .left {
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .hero {
+        padding-top: 18px;
+        gap: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

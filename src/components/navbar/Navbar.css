@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -27,4 +28,15 @@
 
 .nav-items li.active {
     border-bottom: 2px solid #66fcf1;
+}
+
+@media (max-width: 717px) {
+    .nav-items ul {
+        gap: 15px;
+    }
+
+    .nav-items ul li {
+        font-weight: 390;
+        font-size: 20px;
+    }
 }

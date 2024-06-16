@@ -1,0 +1,75 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    padding-top: 160px;
+}
+
+.desc p {
+    max-width: 800px;
+}
+
+.left {
+    text-align: center;
+    font-size: 0px;
+    display: flex;
+    gap: 50px;
+    /* border: 2px solid white; */
+    box-shadow: black;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.desc {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.resume-button button {
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    transition: padding 0.3s ease;
+}
+
+.resume-button button:hover {
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.resume-button button:active {
+    background-color: #1f2833;
+    color: aliceblue;
+}
+
+.resume-button {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 40px;
+}
+
+.name h1 {
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.desc p {
+    font-size: 19px;
+}

@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    padding-top: 0;
+    margin-top: 0;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.nav-items ul {
+    display: flex;
+    gap: 40px;
+    padding-top: 18px;
+}
+
+.nav-items ul li {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav-items ul li:hover {
+    color: #66fcf1;
+}
+
+.nav-items li.active {
+    border-bottom: 2px solid #66fcf1;
+}

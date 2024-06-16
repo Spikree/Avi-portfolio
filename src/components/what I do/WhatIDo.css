@@ -1,0 +1,34 @@
+.what-i-do {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+.left-what-i-do {
+    text-align: center;
+    font-size: 100px;
+}
+
+.right {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.head-text {
+    font-size: 50px;
+}
+
+.tech-stack {
+    font-size: 30px;
+}
+
+.tech-stack ul li {
+    font-size: 30px;
+    transition: transform 0.3s ease; 
+    transform-origin: center;
+}
+
+.tech-stack ul li:hover {
+    transform: scale(1.1);
+}

@@ -37,4 +37,8 @@
     .what-i-do {
         flex-wrap: wrap;
     }
+
+    .tech-stack {
+        padding-right: 25px;
+    }
 }

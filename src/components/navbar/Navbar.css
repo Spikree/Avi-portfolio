@@ -40,3 +40,10 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 717px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

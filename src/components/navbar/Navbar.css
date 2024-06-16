@@ -1,7 +1,6 @@
 .navbar {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -37,13 +36,27 @@
 
     .nav-items ul li {
         font-weight: 390;
-        font-size: 20px;
+        font-size: 18px;
+    }
+    
+    .navbar {
+        padding-right: 20px;
+        flex-wrap: wrap;
     }
 }
 
 @media (max-width: 717px) {
     .navbar {
-        flex-direction: column;
-        justify-content: center;
+      padding-right: 30px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+        padding-top: 8px;
+    }
+
+    .nav-items ul li {
+        font-weight: 390;
+        font-size: 24px;
     }
 }

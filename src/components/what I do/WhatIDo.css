@@ -36,8 +36,9 @@
 .tools {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     font-size: 40px;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 717px) {

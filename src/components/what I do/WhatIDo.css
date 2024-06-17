@@ -33,6 +33,13 @@
     transform: scale(1.1);
 }
 
+.tools {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 40px;
+}
+
 @media (max-width: 717px) {
     .what-i-do {
         flex-wrap: wrap;

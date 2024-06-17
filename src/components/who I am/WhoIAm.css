@@ -1,0 +1,28 @@
+.WhoIAm {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding-top: 150px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 200px;
+}
+
+.left-who-i-am h1 {
+    font-size: 50px;
+}
+
+.left-who-i-am {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-who-i-am {
+    max-width: 600px;
+    text-align: center;
+}
+
+.right-who-i-am p {
+    font-size: 20px;
+}

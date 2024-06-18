@@ -47,6 +47,10 @@
     }
 
     .tech-stack {
-        padding-right: 25px;
+        
+    }
+
+    .tech-stack ul {
+        padding: 16px;
     }
 }

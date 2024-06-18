@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/home/Home'
 import About from './pages/about/About'
@@ -8,7 +9,7 @@ import { Routes , Route } from 'react-router-dom'
 const App = () => {
   return (
     <div className='app'>
-        <Navbar/>
+        <Navbar className="nav-bar"/>
 
         <Routes>
 

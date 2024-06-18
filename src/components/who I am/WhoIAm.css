@@ -26,3 +26,15 @@
 .right-who-i-am p {
     font-size: 20px;
 }
+
+@media (max-width: 717px) {
+    .WhoIAm {
+        flex-wrap: wrap;
+        padding: 60px;
+        padding-bottom: 20px;
+    }
+
+    .disable {
+        display: none;
+    }
+}

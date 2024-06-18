@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -12,7 +13,7 @@
 
 .nav-items ul {
     display: flex;
-    gap: 40px;
+    gap: 60px;
     padding-top: 18px;
 }
 
@@ -37,7 +38,7 @@
 
 @media (max-width: 717px) {
     .nav-items ul {
-        gap: 15px;
+        gap: 20px;
         padding: 30px;
     }
 
@@ -73,5 +74,12 @@
     .nav-items ul {
         padding: 30px;
         margin: 0px;
+    }
+}
+
+@media (max-width:1100) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
     }
 }

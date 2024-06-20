@@ -1,6 +1,6 @@
 .what-i-do {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 0px;
     padding-bottom: 100px;
 }
@@ -53,4 +53,8 @@
     .tech-stack ul {
         padding: 16px;
     }
+}
+
+@media (max-width: 983px) {
+    
 }

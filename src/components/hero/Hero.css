@@ -95,3 +95,13 @@
         padding-right: 30px;
     }
 }
+
+@media (max-width: 1042px) {
+    .left {
+        flex-direction: column;
+    }
+
+    hr {
+        display: none;
+    }
+}

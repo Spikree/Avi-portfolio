@@ -14,6 +14,7 @@
 
 .left-who-i-am {
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
 }
@@ -27,14 +28,15 @@
     font-size: 20px;
 }
 
+@media (max-width: 910px) {
+    .WhoIAm {
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 717px) {
     .WhoIAm {
-        flex-wrap: wrap;
-        padding: 60px;
-        padding-bottom: 20px;
-    }
-
-    .disable {
-        display: none;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 }

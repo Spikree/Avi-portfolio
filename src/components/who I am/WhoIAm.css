@@ -31,6 +31,9 @@
 @media (max-width: 910px) {
     .WhoIAm {
         flex-direction: column;
+        gap: 10px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 

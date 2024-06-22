@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 20px;
 }
 
 .logo {
@@ -55,6 +54,13 @@
     .navbar {
         flex-wrap: wrap;
     }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 717px) {
@@ -75,6 +81,11 @@
     .nav-items ul {
         /* padding: 30px; */
         margin: 0px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
     }
 }
 

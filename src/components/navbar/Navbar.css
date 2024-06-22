@@ -39,7 +39,7 @@
 @media (max-width: 717px) {
     .nav-items ul {
         gap: 20px;
-        padding: 30px;
+        /* padding: 30px; */
     }
 
     .nav-items ul li {
@@ -72,7 +72,7 @@
     }
 
     .nav-items ul {
-        padding: 30px;
+        /* padding: 30px; */
         margin: 0px;
     }
 }

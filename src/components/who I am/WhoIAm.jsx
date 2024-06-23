@@ -5,7 +5,7 @@ const WhoIAm = () => {
   return (
     <div className='WhoIAm'>
         <div className="left-who-i-am">
-            <h1><span  className='disable'>know</span> who I am</h1>
+            <h1>know who I am</h1>
         </div>
           <hr />
         <div className="right-who-i-am">

@@ -27,6 +27,7 @@
     font-size: 30px;
     transition: transform 0.3s ease; 
     transform-origin: center;
+    margin-bottom: 15px;
 }
 
 .tech-stack ul li:hover {

@@ -1,11 +1,16 @@
 import React from 'react'
 import './Card.css'
+import foodDel from '../../assets/foodDel.png'
+import crypto from '../../assets/crypto.png'
+import gemini from '../../assets/gemini.png'
+import wrapper from '../../assets/wrapper.png'
+import vaugesync from '../../assets/vaugesync.png'
 
 const Card = (props) => {
   return (
     <div className='card'>
         <div className="image">
-            <img src="https://t4.ftcdn.net/jpg/05/29/61/37/360_F_529613760_ZN7wI9c62MyPeFC8ioliQ2wrVohVuRey.jpg" alt="" />
+            <img src={props.image} alt="" />
         </div>
 
         <div className="card-title">

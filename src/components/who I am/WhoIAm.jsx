@@ -4,7 +4,7 @@ import './WhoIAm.css'
 const WhoIAm = () => {
   return (
     <div className='WhoIAm'>
-        <div className="left-who-i-am">
+        <div style={{alignItems:'center'}} className="left-who-i-am">
             <h1>know who I am</h1>
         </div>
           <hr />

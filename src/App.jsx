@@ -6,6 +6,7 @@ import About from './pages/about/About'
 import Footer from './components/footer/Footer'
 import { Routes , Route } from 'react-router-dom'
 import Project from './pages/project/Project'
+import Contact from './pages/contact/Contact'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/projects" element={<Project/>}/>
+        <Route path="/contact" element={<Contact/>}/>
         </Routes>
 
         <Footer/>

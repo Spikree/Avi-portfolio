@@ -13,9 +13,9 @@ const Footer = () => {
         </div>
 
         <div className="my-links-logo">
-            <FaLinkedin/>
-            <FaGithub/>
-            <FaTwitter/>
+            <a href="https://in.linkedin.com/in/avi-mahalingpure-640248280"><FaLinkedin/></a>
+            <a href="https://github.com/Spikree"><FaGithub/></a>
+            <a href=""><FaTwitter/></a>
         </div>
 
         <div className="footer-bottom">

@@ -1,0 +1,47 @@
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+}
+
+.top {
+    max-width: 900px;
+}
+
+.top h2 {
+    font-size: 45px;
+}
+
+.top p {
+    font-size: 20px;
+}
+
+.bottom h1 {
+    font-size: 45px;
+}
+
+.contacts a {
+    padding-top: 8px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 60px;
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+@media (max-width : 717px) {
+    .top {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

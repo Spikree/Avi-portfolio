@@ -10,7 +10,7 @@ const Project = () => {
           {
             projectData.map((projectData) => {
               return (
-              <Card index={projectData.index} name={projectData.name} description={projectData.description} />
+              <Card index={projectData.index} name={projectData.name} description={projectData.description} demo={projectData.demo} code={projectData.code}/>
               )
             })
           }

@@ -17,8 +17,8 @@ const Card = (props) => {
         </div>
 
         <div className="card-buttons">
-          <a href=""><button>Demo</button></a>
-          <a href=""><button>Code</button></a>
+          <a href={props.demo}><button>Demo</button></a>
+          <a href={props.code}><button>Code</button></a>
         </div>
     </div>
   )

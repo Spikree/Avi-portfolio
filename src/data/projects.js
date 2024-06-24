@@ -6,16 +6,25 @@ import vaugesync from '../assets/vaugesync.png'
 
 export const projectData = [
     {
-        id: "1",
+        id: 1,
         name : "food delevery app",
         description : "A fullstack web application which manages a restraunts orders made using react for frontend, express for backend and mongoDb for database",
-        demo : "https://food-del-front-end.vercel.app/",
+        demo : "https://food-del-front-end.onrender.com/",
         image: foodDel,
         code : "https://github.com/stars/Spikree/lists/food-delevery-app",
     },
 
     {
-        id: "2",
+        id : 2,
+        name : "VaugeSync",
+        description : "A website for a companies landing page using react for frontend, express for backend and mongoDb for the database",
+        demo : "https://wavesync.vercel.app/",
+        image: vaugesync,
+        code : "https://github.com/Spikree/vaugesync",
+    },
+
+    {
+        id: 3,
         name : "Crypto price app",
         description : "A web app which shows you the price of crypto currency and their stats using react js for the frontend",
         demo : "https://crypto-price-plum.vercel.app/",
@@ -25,7 +34,7 @@ export const projectData = [
     },
 
     {
-        id: "3",
+        id: 4,
         name : "Html wrapper",
         description : "it is a vs code extension that wrapps the selected html element in an html element of your choice",
         demo : "https://marketplace.visualstudio.com/items?itemName=Spikey.wrapper-html",
@@ -34,20 +43,11 @@ export const projectData = [
     },
 
     {
-        id : "4",
+        id : 5,
         name : "Gemini clone",
         description : "A frontend clone of googles gemini web app using react js for frontend and axios for handling api requests",
         demo : "https://gemini-clone-three-kappa.vercel.app/",
         image: gemini,
         code : "https://github.com/Spikree/Gemini-clone",
     },
-
-    {
-        id : 5,
-        name : "VaugeSync",
-        description : "A website for a companies landing page using react for frontend, express for backend and mongoDb for the database",
-        demo : "https://wavesync.vercel.app/",
-        image: vaugesync,
-        code : "https://github.com/Spikree/vaugesync",
-    }
 ]

@@ -12,7 +12,7 @@ const Experience = () => {
         <hr />
         <div className="exp-right">
             <ul>
-                <li><CiLocationArrow1 />3 months of experience as a frontend software developer intern in edutantra software services </li>
+                <a href="Avishkar Exp Letter.pdf"><li><CiLocationArrow1 />3 months of experience as a frontend software developer intern in edutantra software services </li></a>
             </ul>
         </div>
     </div>

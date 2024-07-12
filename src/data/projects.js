@@ -3,6 +3,7 @@ import crypto from '../assets/crypto.png'
 import gemini from '../assets/gemini.png'
 import wrapper from '../assets/wrapper.png'
 import vaugesync from '../assets/vaugesync.png'
+import notify from '../assets/notify.png'
 
 export const projectData = [
     {
@@ -22,9 +23,17 @@ export const projectData = [
         image: vaugesync,
         code : "https://github.com/Spikree/vaugesync",
     },
+    {
+        id : 3,
+        name : "Notify",
+        description : "A fullstack web app which stores your notes and other important stuff you want built with using the MERN stack.",
+        demo : "https://notify-frontend-vmwm.onrender.com",
+        image: notify,
+        code : "https://github.com/Spikree/Notify-frontend.git",
+    },
 
     {
-        id: 3,
+        id: 4,
         name : "Crypto price app",
         description : "A web app which shows you the price of crypto currency and their stats using react js for the frontend",
         demo : "https://crypto-price-plum.vercel.app/",
@@ -34,7 +43,7 @@ export const projectData = [
     },
 
     {
-        id: 4,
+        id: 5,
         name : "Html wrapper",
         description : "it is a vs code extension that wrapps the selected html element in an html element of your choice",
         demo : "https://marketplace.visualstudio.com/items?itemName=Spikey.wrapper-html",
@@ -43,7 +52,7 @@ export const projectData = [
     },
 
     {
-        id : 5,
+        id : 6,
         name : "Gemini clone",
         description : "A frontend clone of googles gemini web app using react js for frontend and axios for handling api requests",
         demo : "https://gemini-clone-three-kappa.vercel.app/",

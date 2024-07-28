@@ -4,6 +4,7 @@ import gemini from '../assets/gemini.png'
 import wrapper from '../assets/wrapper.png'
 import vaugesync from '../assets/vaugesync.png'
 import notify from '../assets/notify.png'
+import apple from '../assets/apple.png'
 
 export const projectData = [
     {
@@ -16,7 +17,16 @@ export const projectData = [
     },
 
     {
-        id : 2,
+        id: 2,
+        name : "Apple website clone",
+        description : "A frontend application built using react js, three js and gsap with animations and 3d models",
+        demo : "https://apple-website-clone-6the.onrender.com",
+        image: apple,
+        code : "https://github.com/Spikree/apple-website-clone-",
+    },
+
+    {
+        id : 3,
         name : "VaugeSync",
         description : "A website for a companies landing page using react for frontend, express for backend and mongoDb for the database",
         demo : "https://wavesync.vercel.app/",
@@ -24,7 +34,7 @@ export const projectData = [
         code : "https://github.com/Spikree/vaugesync",
     },
     {
-        id : 3,
+        id : 4,
         name : "Notify",
         description : "A fullstack web app which stores your notes and other important stuff you want built with using the MERN stack.",
         demo : "https://notify-frontend-vmwm.onrender.com",
@@ -33,7 +43,7 @@ export const projectData = [
     },
 
     {
-        id: 4,
+        id: 5,
         name : "Crypto price app",
         description : "A web app which shows you the price of crypto currency and their stats using react js for the frontend",
         demo : "https://crypto-price-plum.vercel.app/",
@@ -43,7 +53,7 @@ export const projectData = [
     },
 
     {
-        id: 5,
+        id: 6,
         name : "Html wrapper",
         description : "it is a vs code extension that wrapps the selected html element in an html element of your choice",
         demo : "https://marketplace.visualstudio.com/items?itemName=Spikey.wrapper-html",
@@ -52,7 +62,7 @@ export const projectData = [
     },
 
     {
-        id : 6,
+        id : 7,
         name : "Gemini clone",
         description : "A frontend clone of googles gemini web app using react js for frontend and axios for handling api requests",
         demo : "https://gemini-clone-three-kappa.vercel.app/",

@@ -20,7 +20,7 @@ const Hero = () => {
 
         <div className="bottom-button">
         <div className="resume-button">
-                <a href="/Avishkar Rajkumar Mahalingpure.pdf" download><button>Resume</button></a>
+                <a href="/Avishkar Mahalingpure.pdf" download><button>Resume</button></a>
             </div>
         </div>
     </div>

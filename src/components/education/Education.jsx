@@ -16,7 +16,7 @@ const Education = () => {
         <div className="education-info">
                 <ul>
                     <li><p><span className='college-name'>Sharad Institute Of Technology College of Engineering</span> Btech. Computer Science And Engineering</p></li>
-                    <li><p><CiLocationArrow1 className='logo-arrow'  />  Maintaining a strong CGPA of 6.50 as of the 5th semester.</p></li>
+                   
                     <li><p><CiLocationArrow1 className='logo-arrow' />  Proficient in fundamental software engineering subjects: DS, Algorithms, DBMS, OS, CN, SE</p></li>
                     <li><p><CiLocationArrow1 className='logo-arrow' />  Expanding expertise beyond academics to encompass Full Stack development, Machine Learning, and Cloud Computing</p></li>
                 </ul>

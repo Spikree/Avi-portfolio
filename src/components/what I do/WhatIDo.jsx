@@ -39,8 +39,8 @@ const WhatIDo = () => {
             <div className="tech-stack">
                 <ul>
                     <li><GoArrowRight/>React with next and react native for frontend</li>
-                    <li><GoArrowRight/>Backend Architect: Node.js & Express Luminary</li>
-                    <li><GoArrowRight/>Database Dynamo: MongoDB, MySQL, Firebase</li>
+                    <li><GoArrowRight/>Backend Architect: Node.js,Express and springboot </li>
+                    <li><GoArrowRight/>Database: MongoDB, MySQL, Firebase</li>
                 </ul>
             </div>
         </div>

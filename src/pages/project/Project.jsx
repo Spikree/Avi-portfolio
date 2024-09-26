@@ -15,6 +15,7 @@ const Project = () => {
             })
           }
         </div>
+        <p style={{textAlign:"center", fontSize:"20px", marginTop:"20px"}}>for more projects checkout my github</p>
     </div>
   )
 }

@@ -5,6 +5,7 @@ import wrapper from '../assets/wrapper.png'
 import vaugesync from '../assets/vaugesync.png'
 import notify from '../assets/notify.png'
 import apple from '../assets/apple.png'
+import prompt from '../assets/prompt.png'
 
 export const projectData = [
     {
@@ -44,11 +45,11 @@ export const projectData = [
 
     {
         id: 5,
-        name : "Crypto price app",
-        description : "A web app which shows you the price of crypto currency and their stats using react js for the frontend",
-        demo : "https://crypto-price-plum.vercel.app/",
-        image: crypto,
-        code : "https://github.com/Spikree/Crypto-price-",
+        name : "Prompt",
+        description : "Prompt share is an open source AI prompting tool, to discover create and share creative prompts (loading demo might take time because of server speed)",
+        demo : "https://prompt-share-1.onrender.com",
+        image: prompt,
+        code : "https://github.com/Spikree/prompt-share.git",
         
     },
 

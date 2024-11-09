@@ -8,7 +8,8 @@
 
 body {
   /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
-  background: linear-gradient(to right, #0b0c10, #1f2833);
+  /* background: linear-gradient(to right, #0b0c10, #1f2833); */
+  background: linear-gradient(to right, #0b0c10, #1b1e24, #222831, #0f1014);
 }
 
 ul {

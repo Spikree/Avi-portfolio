@@ -12,7 +12,7 @@ const Hero = () => {
                 <hr />
             <div className="desc">
                 <p>
-                Welcome to a realm where web development transcends boundaries, shaping not just pages but societal landscapes. I'm on a mission to architect digital ecosystems that aren't just functional; they're transformative.
+                Hello I'm Avi, I am a full stack developer, I use react with next js for the frontend and I use mongoDb with node js for the backend. I am currently a computer science student and learning many new technologies.
                 </p>
             </div> 
 

@@ -6,6 +6,7 @@ import vaugesync from '../assets/vaugesync.png'
 import notify from '../assets/notify.png'
 import apple from '../assets/apple.png'
 import prompt from '../assets/prompt.png'
+import ToDoNext from '../assets/ToDoNext.png'
 
 export const projectData = [
     {
@@ -36,11 +37,11 @@ export const projectData = [
     },
     {
         id : 4,
-        name : "Notify",
-        description : "A fullstack web app which stores your notes and other important stuff you want built with using the MERN stack.",
-        demo : "https://notify-frontend-vmwm.onrender.com",
-        image: notify,
-        code : "https://github.com/Spikree/Notify-frontend.git",
+        name : "To Do Next",
+        description : "A fullstack web application built on top of next js to store all your tasks and notes, with google authentication and api integration through next auth.js",
+        demo : "https://to-do-next-js-seven.vercel.app/",
+        image: ToDoNext,
+        code : "https://github.com/Spikree/To-do-next.js",
     },
 
     {
